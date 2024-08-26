@@ -1,0 +1,109 @@
+
+.container {
+    width: 100%;
+}
+
+.blink {
+
+    color: red; /* Optional: Set the color of the blinking text */
+    font-size: 20px; /* Optional: Set the font size */
+}
+
+
+.author__name{
+    font-size: 20px;
+}
+
+.visible-links{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add spacing between cards */
+}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.role {
+    font-size: 16px;
+    color: #666666;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.card-content {
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.card-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.card-content li {
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    margin-top: 10px;
+}
+
+.location-date {
+    font-size: 14px;
+    color: #666666;
+    text-align: right;
+}
+
+
+
+
+.image-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* space between grid items */
+
+}
+
+/* Individual grid items */
+.grid-item {
+    text-align: center; /* center-align caption text */
+}
+
+/* Images */
+.grid-item img {
+    width: 100%; /* make the image responsive */
+    height: auto;
+    border-radius: 8px; /* optional: rounded corners */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* smooth transition */
+}
+
+/* Hover effect */
+.grid-item img:hover {
+    transform: scale(1.1); /* reduce size to 90% */
+    opacity: 0.7; /* make the image fainter */
+}
+
+/* Captions */
+.caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
